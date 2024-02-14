@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  width: 100px;
   pointer-events: none;
 }
 
@@ -19,14 +19,22 @@ h1 {
 }
 
 .App-header {
-  padding-top: 100px;
   background-color: #282c34;
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.App-footer {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.Logo-section {
+  padding-top: 30px;
 }
 
 @keyframes App-logo-spin {
