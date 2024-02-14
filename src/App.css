@@ -37,7 +37,7 @@ h1 {
 }
 
 .Logo-section {
-  padding-top: 30px;
+  padding: 30px;
 }
 
 @keyframes App-logo-spin {

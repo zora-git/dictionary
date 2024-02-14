@@ -14,7 +14,9 @@ export default function App() {
       <footer className="App-footer">
         <small>Coded by HJ Park</small>
         <div className="Logo-section">
-          <img src={logo} className="App-logo" alt="logo" />
+          <a href="https://hjp-portfolio.netlify.app/" target="_blank">
+            <img src={logo} className="App-logo" alt="logo" />
+          </a>
         </div>
       </footer>
     </div>
