@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
+import Button from "./Button";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState();
 
   function search(event) {
+    event.preventDefault();
     alert(`searching for ${keyword}`);
   }
 
@@ -17,9 +19,8 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <div>
           <input type="search" onChange={handleKeywordChange} className="Box" />
-          <div>
-            <input type="submit" value="Search" className="Button" />
-          </div>
+
+          <Button />
         </div>
       </form>
     </div>
