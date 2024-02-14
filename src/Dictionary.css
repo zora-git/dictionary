@@ -1,0 +1,32 @@
+.Dictionary {
+  color: white;
+}
+
+.Box {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.Button {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background: #282c34;
+  color: rgb(218, 218, 218);
+  box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7),
+    1px 2px 4px 0px rgba(0, 255, 255, 0.7),
+    2px 4px 8px 0px rgba(0, 255, 255, 0.7),
+    2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+}
+
+.Button:hover {
+  background: linear-gradient(90deg, #4ac7fa, #e649f5);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}

@@ -29,8 +29,9 @@ h1 {
 }
 
 .App-footer {
+  margin-top: 50px;
   padding-bottom: 30px;
-  color: white;
+  color: grey;
 }
 
 .Logo-section {
