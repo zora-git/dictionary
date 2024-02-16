@@ -1,5 +1,6 @@
 .Dictionary {
   color: white;
+  margin: 0 auto;
 }
 
 input {
@@ -7,7 +8,7 @@ input {
 }
 
 .Box {
-  width: 500px;
+  width: 350px;
   height: 60px;
   border-radius: 10px;
   border-color: transparent;
