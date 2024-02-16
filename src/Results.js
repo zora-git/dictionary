@@ -6,14 +6,14 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="container">
-        <section>
+        <section className="search-word">
           <h2>{props.results.word}</h2>/ {props.results.phonetic} /
         </section>
         <section className="list">
           {" "}
           {props.results.meanings.map(function (meaning, index) {
             return (
-              <section key={index}>
+              <section key={index} className="results">
                 <Meaning meaning={meaning} />
               </section>
             );
