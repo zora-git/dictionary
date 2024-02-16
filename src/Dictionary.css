@@ -3,9 +3,9 @@
 }
 
 .Box {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
   border-color: transparent;
   background: #282c34;
   box-shadow: inset 20px 20px 60px #181a1f, inset -20px -20px 60px #383e49;
@@ -15,21 +15,22 @@
 
 .Box:invalid {
   background: #282c34;
-  box-shadow: inset 20px 20px 60px #181a1f, inset -20px -20px 60px #383e49;
+  box-shadow: inset -20px -20px 15px #21252b, inset 20px 20px 15px #2f333d;
   color: rgb(190, 189, 189);
 }
 
 .Box:focus {
-  background: #ffffff;
-  box-shadow: inset 7px 7px 14px #969696, inset -7px -7px 14px #ffffff;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #bababa, inset -7px -7px 14px #ffffff;
+  outline: none;
 }
 
 .Box:valid {
-  background: #ffffff;
-  box-shadow: inset 7px 7px 14px #969696, inset -7px -7px 14px #ffffff;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #bababa, inset -7px -7px 14px #ffffff;
 }
 
 .Box:visited {
-  background: #ffffff;
-  box-shadow: inset 7px 7px 14px #969696, inset -7px -7px 14px #ffffff;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #bababa, inset -7px -7px 14px #ffffff;
 }

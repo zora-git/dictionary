@@ -7,7 +7,7 @@ export default function Button() {
     setColor(color);
   };
 
-  let newcolor = "white";
+  let newcolor = "#e0e0e0";
 
   useEffect(() => {
     document.body.style.backgroundColor = color;
