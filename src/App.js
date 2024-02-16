@@ -8,8 +8,7 @@ export default function App() {
       <header className="App-header"></header>
 
       <main>
-        {" "}
-        <Dictionary />{" "}
+        <h1>Dictionary</h1> <Dictionary />{" "}
       </main>
       <footer className="App-footer">
         <small>Coded by HJ Park</small>
