@@ -2,8 +2,8 @@
   font-family: "Open Sans", sans-serif;
   color: black;
   text-align: left;
-  max-width: 600px;
-  margin: 100px auto;
+  max-width: 800px;
+  margin: 100px auto 0px auto;
   padding: 20px;
 }
 
@@ -15,6 +15,10 @@ section {
   background: #e0e0e0;
   box-shadow: -11px -11px 22px #bababa, 11px 11px 22px #ffffff;
   text-align: center;
+}
+
+section.list {
+  margin-bottom: 15px;
 }
 
 h2 {
