@@ -1,0 +1,26 @@
+.Meaning {
+  text-align: left;
+  padding: 20px 0 20px 0;
+}
+
+h3 {
+  font-size: 15px;
+  color: #749ac3;
+  line-height: 1.5;
+}
+
+.Meaning .indent {
+  padding-left: 15px;
+}
+
+.Meaning .definition {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.Meaning .example {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: #696969;
+}

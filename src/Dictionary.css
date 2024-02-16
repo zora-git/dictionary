@@ -2,6 +2,10 @@
   color: white;
 }
 
+input {
+  font-family: "Open Sans", sans-serif;
+}
+
 .Box {
   width: 500px;
   height: 60px;
@@ -11,12 +15,13 @@
   box-shadow: inset 20px 20px 60px #181a1f, inset -20px -20px 60px #383e49;
   color: black;
   text-indent: 20px;
+  margin: 0 auto;
 }
 
 .Box:invalid {
   background: #282c34;
   box-shadow: inset -20px -20px 15px #21252b, inset 20px 20px 15px #2f333d;
-  color: rgb(190, 189, 189);
+  color: rgb(206, 202, 202);
 }
 
 .Box:focus {

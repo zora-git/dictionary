@@ -8,16 +8,15 @@ export default function Results(props) {
     return (
       <div className="container">
         <section>
-          <h2>{props.results.word}</h2>
-          {props.results.phonetic}
+          <h2>{props.results.word}</h2>/ {props.results.phonetic} /
         </section>
-        <section>
+        <section className="list">
           {" "}
           {props.results.meanings.map(function (meaning, index) {
             return (
-              <div key={index}>
+              <section key={index}>
                 <Meaning meaning={meaning} />
-              </div>
+              </section>
             );
           })}
         </section>

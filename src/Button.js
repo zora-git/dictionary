@@ -17,7 +17,7 @@ export default function Button() {
     <div>
       <button onClick={() => click(newcolor)} className="Button">
         {" "}
-        SEARCH{" "}
+        Enlighten Me{" "}
       </button>
     </div>
   );

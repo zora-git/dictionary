@@ -1,8 +1,9 @@
 .Button {
-  margin-top: 20px;
-  padding: 5px 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+  padding: 10px 30px;
   border: transparent;
-  border-radius: 10px;
+  border-radius: 50px;
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -12,6 +13,7 @@
     1px 2px 4px 0px rgba(0, 255, 255, 0.7),
     2px 4px 8px 0px rgba(0, 255, 255, 0.7),
     2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+  transition: all 150ms ease-in-out;
 }
 
 .Button:hover {
@@ -22,19 +24,19 @@
 }
 
 .Button:focus {
-  background: white;
+  background: #e0e0e0;
   color: grey;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .Button:visited {
-  background: white;
+  background: #e0e0e0;
   color: grey;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .Button:active {
-  background: white;
+  background: #e0e0e0;
   color: grey;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
