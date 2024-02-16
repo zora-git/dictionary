@@ -2,7 +2,6 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
       <div className="Photos">
@@ -10,7 +9,7 @@ export default function Photos(props) {
           {props.photos.map(function (photo, index) {
             return (
               <div className="images">
-                <a href={photo.src.original} target="_blank">
+                <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img src={photo.src.medium} alt={photo.alt} key={index} />
                 </a>
               </div>
