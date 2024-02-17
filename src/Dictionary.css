@@ -23,6 +23,7 @@ input {
   background: #282c34;
   box-shadow: inset -20px -20px 15px #21252b, inset 20px 20px 15px #2f333d;
   color: rgb(206, 202, 202);
+  font-style: italic;
 }
 
 .Box:focus {
@@ -39,4 +40,10 @@ input {
 .Box:visited {
   background: #e0e0e0;
   box-shadow: inset 7px 7px 14px #bababa, inset -7px -7px 14px #ffffff;
+}
+
+@media (max-width: 400px) {
+  .Box {
+    width: 250px;
+  }
 }

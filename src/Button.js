@@ -3,6 +3,12 @@ import "./Button.css";
 
 export default function Button() {
   const [color, setColor] = useState("#282C34");
+  const [isActive, setIsActive] = useState(false);
+
+  function buttonColorChange() {
+    setIsActive(true);
+  }
+
   const click = (color) => {
     setColor(color);
   };
@@ -15,7 +21,17 @@ export default function Button() {
 
   return (
     <div>
-      <button onClick={() => click(newcolor)} className="Button">
+      <button
+        style={{
+          backgroundColor: isActive ? "#e0e0e0" : ``,
+          color: isActive ? `#749ac3` : ``,
+        }}
+        onClick={() => {
+          click(newcolor);
+          buttonColorChange();
+        }}
+        className="Button"
+      >
         {" "}
         Enlighten Me{" "}
       </button>

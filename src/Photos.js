@@ -1,13 +1,13 @@
 import React from "react";
 import "./Photos.css";
 import Social from "./Social";
+import { ReactComponent as Horizontal } from "./social/left-right-solid.svg";
 
 export default function Photos(props) {
   if (props.photos) {
     return (
       <div>
         <div className="Photos">
-          <h5>scroll right</h5>
           <section className="Gallery">
             {props.photos.map(function (photo, index) {
               return (
@@ -19,6 +19,12 @@ export default function Photos(props) {
               );
             })}
           </section>
+          <div className="scroll">
+            <div>
+              scroll
+              <Horizontal fill="#749ac3" />{" "}
+            </div>{" "}
+          </div>
         </div>
         <Social />
       </div>

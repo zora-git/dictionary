@@ -18,6 +18,7 @@
 
 .Button:hover {
   background: #749ac3;
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   display: inline-block;

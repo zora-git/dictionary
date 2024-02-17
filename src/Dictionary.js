@@ -45,6 +45,7 @@ export default function Dictionary() {
             type="search"
             onChange={handleKeywordChange}
             className="Box"
+            placeholder="Type a word..."
             required="true"
           />
 
