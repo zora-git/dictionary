@@ -17,14 +17,6 @@ section {
   text-align: center;
 }
 
-.search-word {
-  transition: all 0.3s ease-in-out;
-}
-
-.search-word:hover {
-  background-color: #bccfe4;
-}
-
 .results {
   transition: all 0.3s ease-in-out;
 }

@@ -23,6 +23,7 @@ export default function App() {
             "textarea",
             "button",
             ".link",
+            ".circle",
           ]}
         />
       </div>

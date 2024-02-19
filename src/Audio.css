@@ -1,0 +1,19 @@
+.Audio {
+  width: 50px;
+  height: 50px;
+  margin: 30px auto 10px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: -11px -11px 22px #bebebe, 11px 11px 22px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.Audio:hover {
+  background-color: #bccfe4;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
