@@ -24,15 +24,17 @@ export default function Audio(props) {
     setAudio(response.data[0].phonetics[0].audio);
   }
 
-  let word = props.audio;
-  let googleApiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-  axios.get(googleApiUrl).then(handleAudio);
+  useEffect(() => {
+    let word = props.audio;
+    let googleApiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+    axios.get(googleApiUrl).then(handleAudio);
+  }, [props.audio]);
 
   return (
     <div className="Audio">
       <div className="circle">
         <Headphones fill="#749ac3" onClick={playAudio} />
-        <audio src={audio} type="audio/mp3" id="AudioElementId"></audio>
+        <audio src={audio} type="audio/mp3" id="AudioElementId" />
       </div>
     </div>
   );
